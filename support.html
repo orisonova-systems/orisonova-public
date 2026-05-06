@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Shopify Restore Filenames</title>
+  <style>body{font-family:system-ui,-apple-system,BlinkMacSystemFont,sans-serif;max-width:820px;margin:40px auto;padding:0 20px;line-height:1.6}code,pre{background:#f4f4f4;padding:2px 4px;border-radius:4px}pre{padding:12px;overflow:auto}</style>
+</head>
+<body>
+  <h1>Support — Shopify Restore Filenames</h1>
+  <h2>What this extension does</h2>
+  <p>Shopify Restore Filenames scans Shopify Admin order detail pages for uploaded-file property rows and generates deterministic safe filenames for order processing workflows.</p>
+  <pre>1001_TEST-UP-001_Artwork-Upload.png</pre>
+  <h2>Basic use</h2>
+  <ol>
+    <li>Open a Shopify Admin order detail page.</li>
+    <li>Open the Shopify Restore Filenames side panel.</li>
+    <li>Click <code>Refresh scan</code>.</li>
+    <li>Copy one filename, copy all filenames, or copy TSV.</li>
+  </ol>
+  <h2>Common issue: no rows found</h2>
+  <ol>
+    <li>Confirm you are on an individual Shopify order detail page, not Products or Orders list.</li>
+    <li>Reload the page.</li>
+    <li>Click <code>Refresh scan</code> again.</li>
+    <li>Confirm the order contains an uploaded-file property row.</li>
+  </ol>
+  <h2>Common issue: .bin extension</h2>
+  <p>If a generated filename ends in <code>.bin</code>, the extension could not find a file extension from the visible upload URL. Open row diagnostics and copy diagnostics JSON before requesting support.</p>
+  <h2>Diagnostics</h2>
+  <p>The extension includes <code>Copy diagnostics JSON</code> for troubleshooting. Diagnostics may include order URL, SKU, product title, uploaded-file URL, property label, and generated filename. Redact sensitive values before sharing diagnostics from a real store.</p>
+  <h2>Contact</h2>
+  <p>Support email: orisonova@gmail.com</p>
+</body>
+</html>
