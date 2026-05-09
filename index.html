@@ -1,22 +1,83 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shopify Restore Filenames</title>
-  <style>body{font-family:system-ui,-apple-system,BlinkMacSystemFont,sans-serif;max-width:820px;margin:40px auto;padding:0 20px;line-height:1.6}.box{border:1px solid #ddd;border-radius:12px;padding:16px;margin:16px 0}</style>
-</head>
-<body>
-  <h1>Shopify Restore Filenames</h1>
-  <p>A local-first Chrome extension that generates deterministic safe filenames from uploaded-file rows in Shopify Admin order detail pages.</p>
-  <div class="box">
-    <h2>Core value</h2>
-    <p>When the original filename is not visible in Shopify Admin, generate a safe operational filename from order number, SKU, property label, and extension.</p>
-  </div>
-  <div class="box">
-    <h2>Privacy</h2>
-    <p>Shopify order data is processed locally in the browser and is not sent to an external server in the current version.</p>
-  </div>
-  <p><a href="./privacy.html">Privacy Policy</a> · <a href="./support.html">Support</a></p>
-</body>
-</html>
+<h1>Orisonova MicroTools</h1>
+
+<p>
+Orisonova MicroTools creates small, practical browser tools that reduce
+repetitive operational friction in existing web platforms.
+</p>
+
+<p>
+Our tools are designed for local-first workflows: they help users extract,
+rename, copy, export, or restructure information that is already visible in
+their own browser, without sending platform data to an external server in the
+current version.
+</p>
+
+<section>
+  <h2>Current product</h2>
+
+  <h3>Shopify Restore Filenames</h3>
+
+  <p>
+  Shopify Restore Filenames is a Chrome extension for Shopify Admin order detail
+  pages. It scans uploaded-file property rows and generates deterministic safe
+  filenames for order-processing workflows.
+  </p>
+
+  <p>
+  When Shopify Admin or an upload provider does not show the customer's original
+  filename, the extension generates an operational filename from available
+  order information such as order number, SKU, property label, and file
+  extension.
+  </p>
+
+  <pre>1001_TEST-UP-001_Artwork-Upload.png</pre>
+
+  <p>
+  The extension can copy one filename, copy all generated filenames, or export
+  TSV for spreadsheet-based workflows.
+  </p>
+</section>
+
+<section>
+  <h2>Starter plan</h2>
+
+  <p>
+  Shopify Restore Filenames Starter is planned at ¥1,200/year.
+  Starter users receive early commercial access, priority support, and access
+  to future paid features for this extension as they are released.
+  </p>
+
+  <p>
+  The current extension version uses a local soft quota. It does not yet include
+  server-side license verification or hard blocking.
+  </p>
+</section>
+
+<section>
+  <h2>Data and privacy</h2>
+
+  <p>
+  Shopify order data is processed locally in the user's browser. The current
+  version does not transmit Shopify order data, uploaded-file URLs, customer
+  data, generated filenames, diagnostics, or scan results to Orisonova, Stripe,
+  or any external server.
+  </p>
+
+  <p>
+  Payments, if made through a Starter link, are processed by Stripe outside the
+  extension. The extension does not send Shopify order data to Stripe.
+  </p>
+</section>
+
+<section>
+  <h2>Support</h2>
+
+  <p>
+  For support, contact: YOUR_SUPPORT_EMAIL
+  </p>
+
+  <p>
+  <a href="privacy.html">Privacy Policy</a> ·
+  <a href="support.html">Support</a>
+  </p>
+</section>
